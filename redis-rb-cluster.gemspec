@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
 
 For now the goal is to write a simple (but not too simple) client that works as a reference implementation, and can be used in order to further develop and test Redis Cluster, that is a work in progress itself.'
 
-	spec.require_path = 'lib/'
-	spec.files = Dir['lib/*.rb']
-	s.add_dependency 'redis', '~> 3.0.4'
+  s.require_path = 'lib/'
+  s.files = Dir['lib/*.rb']
+  s.add_dependency 'redis', '~> 3.0.4'
 end
