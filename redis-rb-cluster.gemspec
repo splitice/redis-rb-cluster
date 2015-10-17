@@ -9,5 +9,5 @@ For now the goal is to write a simple (but not too simple) client that works as 
 
   s.require_path = 'lib/'
   s.files = Dir['lib/*.rb']
-  s.add_dependency 'redis', '~> 3.0.4'
+  s.add_dependency 'redis', '>= 3.0.4'
 end
